@@ -1,0 +1,11 @@
+<!-- use jQuery to replace text -->
+<script type="text/javascript">
+
+    function DisableECfields(){
+    $j("input#studEmail_0").prop( "disabled", true );
+    $j("button#btnSubmit").parent().remove();
+    }
+
+        $j(document).ready(DisableECfields);
+
+</script>
